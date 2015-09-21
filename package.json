@@ -27,5 +27,9 @@
   },
   "devDependencies": {
     "tap": "~1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodesource/upgrade-ready.git"
   }
 }
