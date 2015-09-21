@@ -1,0 +1,12 @@
+{
+  "name": "with-npm-install",
+  "version": "1.0.0",
+  "description": "Fixture without npm install run on dependencies.",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "4.2.0"
+  },
+  "dependencies": {
+    "client-request": "1.0.1"
+  }
+}

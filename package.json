@@ -1,0 +1,31 @@
+{
+  "name": "upgrade-ready",
+  "version": "1.0.0",
+  "description": "A tool to help with the process of upgrading modules to the latest version of Node.js (v4), it will check dependencies against a Node.js version",
+  "bin": "upgrade-ready.js",
+  "scripts": {
+    "test": "tap test/*.test.js"
+  },
+  "keywords": [
+    "upgrade",
+    "update",
+    "node",
+    "iojs"
+  ],
+  "author": "NodeSource <npm@nodesource.com > (https://nodesource.com)",
+  "contributors": [
+    "Daniel Aristizabal <aristi@nodesource.com> (https://github.com/cronopio)",
+    "Julián Duque <julian@nodesource.com> (https://github.com/julianduque)",
+    "Dan Shaw <dshaw@nodesource.com> (https://github.com/dshaw)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "client-request": "1.0.1",
+    "dependencies": "0.0.1",
+    "gather-dependencies": "~1.0.0",
+    "rc": "~1.1.1"
+  },
+  "devDependencies": {
+    "tap": "~1.4.1"
+  }
+}

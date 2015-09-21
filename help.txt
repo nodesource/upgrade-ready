@@ -1,0 +1,12 @@
+Usage: upgrade-ready [options] targetVersion 
+
+Options:
+  --endpoint ADDRESS          URL to server endpoint
+  --targetVersion VERSION     Node.js version to confirm if is ready to install
+  --path PATH_PACKAGE         Path to look for a package.json file to check, default to directory where executed
+  --verbose | -v              Show the entire JSON submitted to server
+  --config PATH_COFIG         Use an especific config file to set options
+  --help | -h                 Show this help message
+
+Configuration:
+  All options can be provided via ~/.upgrade-readyrc as an JSON file.
