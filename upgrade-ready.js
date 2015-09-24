@@ -25,7 +25,7 @@ var gatherDependencies = require('gather-dependencies')
 var config = rc('upgrade-ready', {
   endpoint: 'http://upgrade-ready.nodesource.com/api/',
   verbose: false,
-  targetVersion: '4.1.0',
+  targetVersion: '4.1.1',
   path: path.resolve('.')
 })
 
