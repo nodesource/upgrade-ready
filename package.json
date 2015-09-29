@@ -24,7 +24,8 @@
     "client-request": "1.0.1",
     "dependencies": "0.0.1",
     "gather-dependencies": "~1.0.0",
-    "rc": "~1.1.1"
+    "rc": "~1.1.1",
+    "url-join": "0.0.1"
   },
   "devDependencies": {
     "tap": "~1.4.1"

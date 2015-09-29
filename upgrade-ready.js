@@ -11,13 +11,12 @@
  */
 var path = require('path')
 var utils = require('util')
-var url = require('url')
 var fs = require('fs')
 var rc = require('rc')
 var request = require('client-request')
 var extend = utils._extend
 var gatherDependencies = require('gather-dependencies')
-
+var urlJoin = require('url-join')
 /**
  * Configuration
  */
@@ -67,11 +66,8 @@ function upgradeReady (options, callback) {
       console.log(utils.inspect(data, { showHidden: true, colors: true }))
     }
 
-    var uriParsed = url.parse(options.endpoint)
-    uriParsed.pathname = path.resolve(uriParsed.pathname, options.targetVersion)
-
     var postOpts = {
-      uri: url.format(uriParsed),
+      uri: urlJoin(options.endpoint, options.targetVersion),
       method: 'POST',
       body: data,
       headers: {
