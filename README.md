@@ -5,7 +5,7 @@ Upgrade ready CLI tool.
 
 With this tool you can check your installed dependencies against a specific Node.js version.
 
-We made this tool with much <3 to help you in the process to upgrade your application to the recent versions of Node.js (4.3.1)
+We made this tool with much <3 to help you in the process to upgrade your application to the recent versions of Node.js (4.3.2)
 
 The tool connect with a remote server where we try to install your dependencies tree using the selected Node.js version.
 
