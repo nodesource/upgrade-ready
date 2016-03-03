@@ -20,7 +20,7 @@ $ [sudo] npm install -g upgrade-ready
 Make sure you run the tool after installing dependencies with `npm install` on your working Node.js or io.js setup
 
 ``` bash
-$ upgrade-ready 4.3.1
+$ upgrade-ready 4.3.2
 ```
 
 ## Authors and Contributors
