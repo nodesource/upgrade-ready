@@ -23,6 +23,13 @@ Make sure you run the tool after installing dependencies with `npm install` on y
 $ upgrade-ready 4.4.3
 ```
 
+For help message:
+
+``` bash
+$ upgrade-ready --help
+```
+
+
 ## Authors and Contributors
 
 <table><tbody>
@@ -35,4 +42,4 @@ Contributions are welcomed from anyone wanting to improve this project!
 
 ## License & Copyright
 
-**upgrade-ready** is Copyright (c) 2015 NodeSource and licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
+**upgrade-ready** is Copyright (c) 2016 NodeSource and licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included [LICENSE.md](https://github.com/nodesource/upgrade-ready/blob/master/LICENSE.md) file for more details.
