@@ -5,7 +5,7 @@ Upgrade ready CLI tool.
 
 With this tool you can check your installed dependencies against a specific Node.js version.
 
-We made this tool with much <3 to help you in the process to upgrade your application to the recent versions of Node.js (4.5.0)
+We made this tool with much <3 to help you in the process to upgrade your application to the recent versions of Node.js (4.6.0)
 
 The tool connect with a remote server where we try to install your dependencies tree using the selected Node.js version.
 
@@ -20,7 +20,7 @@ $ [sudo] npm install -g upgrade-ready
 Make sure you run the tool after installing dependencies with `npm install` on your working Node.js or io.js setup
 
 ``` bash
-$ upgrade-ready 4.5.0
+$ upgrade-ready 4.6.0
 ```
 
 For help message:
