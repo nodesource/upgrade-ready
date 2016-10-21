@@ -24,7 +24,7 @@ var urlJoin = require('url-join')
 var config = rc('upgrade-ready', {
   endpoint: 'http://upgrade-ready.nodesource.com/api/',
   verbose: false,
-  targetVersion: '4.6.0',
+  targetVersion: '6.9.1',
   path: path.resolve('.')
 })
 
