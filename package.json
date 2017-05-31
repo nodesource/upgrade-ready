@@ -1,6 +1,6 @@
 {
   "name": "upgrade-ready",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A tool to help with the process of upgrading modules to the latest LTS version of Node.js, it will check dependencies against a Node.js version",
   "bin": "upgrade-ready.js",
   "preferGlobal": true,
