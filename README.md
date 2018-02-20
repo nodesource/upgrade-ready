@@ -5,7 +5,7 @@ Upgrade ready CLI tool.
 
 With this tool you can check your installed dependencies against a specific Node.js version.
 
-We made this tool with much <3 to help you in the process to upgrade your application to the recent versions of Node.js (6.10.3)
+We made this tool with much <3 to help you in the process to upgrade your application to the recent versions of Node.js (8.9.4)
 
 The tool connect with a remote server where we try to install your dependencies tree using the selected Node.js version.
 
@@ -20,7 +20,7 @@ $ [sudo] npm install -g upgrade-ready
 Make sure you run the tool after installing dependencies with `npm install` on your working Node.js or io.js setup
 
 ``` bash
-$ upgrade-ready 6.10.3
+$ upgrade-ready 8.9.4
 ```
 
 For help message:
@@ -42,4 +42,4 @@ Contributions are welcomed from anyone wanting to improve this project!
 
 ## License & Copyright
 
-**upgrade-ready** is Copyright (c) 2016 NodeSource and licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included [LICENSE.md](https://github.com/nodesource/upgrade-ready/blob/master/LICENSE.md) file for more details.
+**upgrade-ready** is Copyright (c) 2018 NodeSource and licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included [LICENSE.md](https://github.com/nodesource/upgrade-ready/blob/master/LICENSE.md) file for more details.
